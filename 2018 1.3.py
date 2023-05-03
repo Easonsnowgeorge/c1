@@ -1,0 +1,7 @@
+a = input()
+b = a.split()
+print("0 %s %s %s %s"%(b[0], int(b[0]) + int(b[1]), int(b[0]) + int(b[1]) + int(b[2]), int(b[0]) + int(b[1]) + int(b[2]) + int(b[3])))
+print("%s 0 %s %s %s"%(b[0],(b[1]), int(b[1]) + int(b[2]),int(b[1]) + int(b[2]) + int(b[3])))
+print("%s %s 0 %s %s"%(int(b[0])+int(b[1]),b[1], int(b[2]), int(b[2]) + int(b[3])))
+print("%s %s %s 0 %s"%(int(b[0]) + int(b[1]) + int(b[2]), int(b[1]) + int(b[2]), int(b[2]), int(b[3])))
+print("%s %s %s %s 0"%(int(b[0]) + int(b[1]) + int(b[2]) + int(b[3]), int(b[1]) + int(b[2]) + int(b[3]),int(b[2]) +int(b[3]), b[3]))
